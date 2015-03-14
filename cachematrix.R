@@ -37,9 +37,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## This function create a special matrix containing a list of
-## 'getters' and 'setters' as explained above for the purpose of 
-## caching the inverse of a matrix
+## This function compute the inverse of a special matrix x
+## created using makeCacheMatrix function above
 ## Args: 
 ##      x: a special matrix created using makeCacheMatrix
 ## Returns: 
